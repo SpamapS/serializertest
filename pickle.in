@@ -1,0 +1,6 @@
+import pickle
+
+@DATA@
+
+dumped_data = pickle.dumps(data)
+deserialized_data = pickle.loads(dumped_data)

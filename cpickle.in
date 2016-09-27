@@ -1,0 +1,6 @@
+import cPickle
+
+@DATA@
+
+dumped_data = cPickle.dumps(data)
+deserialized_data = cPickle.loads(dumped_data)

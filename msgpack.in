@@ -1,0 +1,6 @@
+import msgpack
+
+@DATA@
+
+dumped_data = msgpack.dumps(data)
+deserialized_data = msgpack.loads(dumped_data)
